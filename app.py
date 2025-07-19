@@ -56,11 +56,11 @@ def get_reviews(place_id, max_reviews=200):
 
 # Main program
 if __name__ == "__main__":
-    place_id = "ChIJK--RT9TnaC4R3vmpjNmLKMQ"
-    csv_file = "GacoanReview.csv"
+    place_id = "ChIJB1KuDanlaC4RJy8pdjGFnHY"
+    csv_file = "Gacoancimahi.csv"
     
     print("Mengambil data review...")
-    reviews = get_reviews(place_id, max_reviews=100)
+    reviews = get_reviews(place_id, max_reviews=200)
     
     if not reviews:
         print("Tidak ada review ditemukan.")
